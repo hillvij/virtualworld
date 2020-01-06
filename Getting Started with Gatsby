@@ -1,0 +1,18 @@
+Getting Started with Gatsby
+To use Gatsby.js, make sure you have Node.js and npm installed on your machine. Gatsby starters can be installed via the Gatsby CLI tool or by cloning a GitHub repository. Let's explore the CLI tool by first installing it.
+
+# Install the Gatsby CLI tool globally on your machine
+npm install --global gatsby-cli
+The convention for starting a new Gatsby site with the CLI is:
+
+gatsby new [SITE_DIRECTORY] [URL_OF_STARTER_GITHUB_REPO]
+Let's try installing the Gatsby Dimension Starter:
+
+gatsby new gatsby-starter-dimension https://github.com/codebushi/gatsby-starter-dimension
+This will create a new directory called gatsby-starter-dimension and clone the repository into it. It will also automatically run npm install in the directory for you. Now we just need to go into the new directory and boot up Gatsby.
+
+cd gatsby-starter-dimension
+
+# Start the dev site, browse to http://localhost:8000/
+gatsby develop
+If you don't want to use the Gatsby CLI tool, you can just clone the repository and manually run npm install inside the folder, followed by gatsby develop. Check out the official Gatsby Tutorials for more information.
